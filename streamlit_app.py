@@ -67,12 +67,11 @@ st.markdown("---")
 # 라벨 이름 매핑: 여기를 채우세요!
 # 각 라벨당 최대 3개씩 표시됩니다.
 # ======================
-CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = 
-{
+CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 labels[0] : {"texts" : ["중국식 냉면 난 별로 ㅎ"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2016/08/24/0e5ef436571452c6e24fee2860d452f7.jpg"]},
-    labels[1] : {"texts" : ["짜장면 맛있겠다"], "images" : ["https://img.publichs.com/ECMCFO/share/product/58/75/91/17872285.jpg/dims/resize/Q_80,850"]},
-    labels[2] : {"texts" : ["짬뽕 맛있겠다"], "images" : ["https://noodleplanet.co.kr/wp-content/uploads/2025/04/webzine-13-story-5-6.jpg"]},
-    labels[3] : {"texts" : ["탕수육은 찍먹"], "images" : ["https://homecuisine.co.kr/files/attach/images/142/737/002/969e9f7dc60d42510c5c0353a58ba701.JPG"]},    
+labels[1] : {"texts" : ["짜장면 맛있겠다"], "images" : ["https://img.publichs.com/ECMCFO/share/product/58/75/91/17872285.jpg/dims/resize/Q_80,850"]},
+labels[2] : {"texts" : ["짬뽕 맛있겠다"], "images" : ["https://noodleplanet.co.kr/wp-content/uploads/2025/04/webzine-13-story-5-6.jpg"]},
+labels[3] : {"texts" : ["탕수육은 찍먹"], "images" : ["https://homecuisine.co.kr/files/attach/images/142/737/002/969e9f7dc60d42510c5c0353a58ba701.JPG"]},    
  
 }
 
